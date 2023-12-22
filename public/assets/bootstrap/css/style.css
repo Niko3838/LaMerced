@@ -2,3 +2,31 @@
     background-color: rgb(193, 85, 55); /* Cambia estos valores a tu color RGB deseado */
     color: aqua;
 }
+
+
+/* BOTON */
+.btn-custom {
+    background-color: #BD0D0D;
+    border: 1px solid black;
+    color: azure;
+    transition: background-color 0.3s;
+}
+.btn-custom:hover {
+    background-color: #d6b213;
+}
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(65, 194, 18, 0.5); 
+    outline: 0; 
+}
+
+/* ACORDION */
+/* cerrado */
+.accordion-button {
+    background-color: rgb(252, 252, 252);
+}
+
+/* abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #BD0D0D; 
+    color: azure;
+}

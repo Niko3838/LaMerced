@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <p>Hola bienvenidos a la pagina de productos como bebidas o comida marina, comida rapida etc.</p>
+    <p>Hola bienvenidos a la pagina de  regstro productos como bebidas o comida marina, comida rapida etc.</p>
 
     <h1>Registro de productos</h1>
     <form action="{{ url('carta.reg_productos') }}" method="POST">
